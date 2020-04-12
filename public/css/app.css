@@ -1,0 +1,444 @@
+#flecheUp {
+    width: 5em;
+    float: right;
+    position: sticky;
+    margin-right:5%;
+    top:50%;
+    height:5% !important;
+
+}
+
+.divUl
+{
+	padding: 0px;
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 1rem;
+
+}
+
+#mailBigBlack
+{
+	max-width:none;
+
+
+}
+
+
+#lettreLangue
+{
+
+	font-size:24px;
+
+}
+
+#mail
+{
+	max-width: none;
+}
+
+
+
+.justify-content-center {
+
+    align-items: center;
+
+}
+
+
+#lang {
+
+    border-bottom: 0px;
+
+
+
+}
+
+#logoLargeurSpecial {
+
+    max-width: 150px;
+
+}
+
+#blanc1 {
+
+    border-bottom: 0px;
+
+
+}
+
+#blanc2 {
+
+    border-bottom: 0px;
+
+
+}
+
+#blanc3 {
+
+    border-bottom: 0px;
+
+
+}
+
+
+
+
+#coucouTheophile {
+
+
+    display: none;
+
+}
+
+
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+
+
+li {
+
+    list-style: none;
+
+
+}
+
+#blanc1 ul li .nav-link {
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-transform: none;
+}
+
+#blanc2 ul li .nav-link {
+
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-transform: none;
+
+
+}
+
+#blanc3 ul li .nav-link {
+
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-transform: none;
+
+}
+
+
+
+#bordelHaut {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+#navbarSupportedContent a {
+    width: 20%;
+}
+
+#navbarSupportedContent {
+    width: 100%;
+}
+
+#navProthese {
+
+    display: none;
+
+}
+
+#navOutils {
+
+    display: none;
+
+}
+
+#navAPropos {
+
+    display: none;
+
+}
+
+
+
+/*@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");*/
+@font-face {
+    font-family: "BrownPro";
+    src: url("../fonts/BrownPro/lineto-brown-pro-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "BrownProRegular";
+    src: url("../fonts/BrownPro/lineto-brown-pro-regular.woff") format("woff");
+}
+
+body {
+    background-image: url("../images/background3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content {
+    background-color: #fff;
+    padding: 100px 0px;
+}
+
+header {
+    height: 100vh;
+}
+
+header .navbar {
+    border-bottom: 1px solid #e6e8e8;
+    background-color: #fff;
+}
+
+header .navbar .navbar-brand {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    font-family: "BrownPro", sans-serif;
+}
+
+header .navbar.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .navbar .nav-item .nav-link {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.25em;
+    padding: 0px 24px;
+    font-family: "BrownPro", sans-serif;
+}
+
+.cover {
+    height: calc(100vh);
+    position: relative;
+}
+
+.cover .cover-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.cover .cover-back .cover-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.cover .cover-back .cover-content h1 {
+    color: #f00;
+    font-size: 55px;
+    font-family: "BrownPro", sans-serif;
+}
+
+.cover .cover-back .cover-content p {
+    color: #e6e8e8;
+    font-size: 25px;
+    font-family: "BrownProRegular", sans-serif;
+}
+
+.cover-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cover-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+    font-family: "BrownPro", sans-serif;
+}
+
+.cover-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e6e8e8;
+    font-size: 25px;
+    font-family: "BrownProRegular", sans-serif;
+}
+
+
+
+footer {
+    background-color: #000;
+    padding: 100px 0px;
+}
+
+footer .footer-content {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #b1b2b8;
+}
+
+footer .footer-content .footer-title {
+    font-family: "BrownProRegular", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+footer .footer-content .footer-list {
+    padding: 0px;
+    list-style-type: none;
+}
+
+footer .footer-content .footer-list li a {
+    color: #b1b2b8;
+    transition: .2s;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer .footer-content .footer-list li a:hover {
+    color: #fff;
+}
+
+footer .footer-bottom {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-bottom p {
+    font-size: 11px;
+    color: #b1b2b8;
+    margin: 0px;
+}
+
+footer .footer-bottom ul {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer .footer-bottom ul li a {
+    padding: 0px 12px;
+    border-left: 1px solid #b1b2b8;
+}
+
+footer .footer-bottom a {
+    color: #fff;
+}
+
+footer .footer-bottom a i {
+    font-size: 10px;
+}
+
+.btn-search {
+    border: none;
+    background-color: transparent;
+    border-left: 1px solid #e6e8e8;
+    padding-left: 15px;
+}
+
+.btn-default {
+    border: 1px solid #000;
+    background-color: transparent;
+    font-family: "BrownPro", sans-serif;
+    color: #000;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 25px;
+    display: inline-block;
+    max-width: 300px;
+    text-align: center;
+}
+
+a.btn-default {
+    text-decoration: none;
+}
+
+a.btn-default:hover {
+    color: #000;
+}
+
+.text-card {
+    margin: 100px 0px;
+}
+
+.text-card .text-content .title {
+    font-family: "BrownPro", sans-serif;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.text-card .text-content p {
+    font-family: "BrownProRegular", sans-serif;
+}
+
+.text-card .text-content.text-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-card .text-content.text-content-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-card .text-content .img-text {
+    padding: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.text-card .text-content .img-text.img-right {
+    margin-left: 25px;
+}
+
+
+/*# sourceMappingURL=app.css.map */
+
+
+
+
+
+/* *************************************************************************************************************** */
+
+
+/* *************************************************************************************************************** */
+
+
+
+/* *************************************************************************************************************** */

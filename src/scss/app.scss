@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+@font-face {
+  font-family: "BrownPro";
+  src: url("../fonts/BrownPro/lineto-brown-pro-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "BrownProRegular";
+  src: url("../fonts/BrownPro/lineto-brown-pro-regular.woff") format("woff");
+}
+
+@import "base/var";
+@import "base/normalize";
+
+@import "layouts/header";
+@import "layouts/cover";
+@import "layouts/footer";
+
+@import "modules/button";
+@import "modules/text";

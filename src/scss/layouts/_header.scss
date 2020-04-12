@@ -1,0 +1,46 @@
+header {
+
+  height: 100vh;
+
+  .navbar {
+
+    border-bottom: 1px solid #e6e8e8;
+    background-color: #fff;
+
+    .navbar-brand {
+
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #000;
+      font-family: "BrownPro", sans-serif;
+
+    }
+
+    &.navbar-fixed {
+
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+
+    }
+
+    .nav-item {
+
+      .nav-link {
+
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 0px 24px;
+        font-family: "BrownPro", sans-serif;
+
+      }
+
+    }
+
+  }
+
+}

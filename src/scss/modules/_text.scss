@@ -1,0 +1,50 @@
+.text-card {
+
+  margin: 100px 0px;
+
+  .text-content {
+
+    .title {
+
+      font-family: "BrownPro", sans-serif;
+      font-size: 3em;
+      margin-bottom: 15px;
+
+    }
+
+    p {
+
+      font-family: "BrownProRegular", sans-serif;
+
+    }
+
+    &.text-content-center {
+
+      display: flex;
+      justify-content: center;
+
+    }
+
+    &.text-content-between {
+
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .img-text {
+
+      padding: 15px;
+      width: 40%;
+
+      &.img-right {
+
+        margin-left: 25px;
+
+      }
+
+    }
+
+  }
+
+}

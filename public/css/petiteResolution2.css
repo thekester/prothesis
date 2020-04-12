@@ -1,0 +1,252 @@
+/*@media screen and (max-width: 50em) {*/
+@media screen and (min-width: 481px) and (max-width: 780px) {
+
+   
+
+
+    header {
+
+
+        height: 20vh;
+
+
+
+    }
+
+
+    .cover-p {
+
+
+        display: none;
+
+    }
+
+
+    .cover-div {
+
+
+        display: none;
+
+    }
+
+    header .navbar .nav-item .nav-link {
+
+        font-size: 1em;
+    }
+
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    main {
+        font-size: 75%;
+    }
+
+    .title {
+
+
+        font-size: 2em;
+
+
+
+    }
+
+    .container {
+
+        margin-left: 0;
+        margin-right: 0px;
+
+
+    }
+
+    .navbar-expand .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        justify-content: space-around !important;
+    }
+
+
+
+    #navOutils {
+
+        width: 100%;
+        font-size: 75%;
+
+    }
+
+
+    #navAPropos {
+
+        width: 100%;
+
+
+    }
+
+
+
+    /*header .navbar .nav-item .nav-link */
+    header .navbar .nav-item .nav-link {
+
+        font-size: 10px;
+        padding: 0px;
+
+
+    }
+
+    .nav-item {
+
+        font-size: 10px;
+        padding: 0px;
+        color: #f00;
+
+    }
+
+    #imageTropPetite {
+
+        display: none;
+
+    }
+
+    .row {
+
+        margin: 0px;
+
+    }
+
+    #navProthese {
+        width: 100%;
+
+    }
+
+    #navOutils {
+
+        width: 100%;
+
+    }
+
+
+    #navAPropos {
+
+        width: 100%;
+
+    }
+
+
+    #navbarSupportedContent {
+        width: 100%;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+
+    .container {
+
+        padding: 0;
+        flex-direction: column;
+
+    }
+
+    .navbar {
+
+        padding: 0px;
+
+    }
+
+    #margin01 {
+
+        padding: 0;
+
+    }
+
+
+    header {
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #taitToi {
+
+        height: 0vh;
+
+    }
+
+
+
+
+    .content {
+
+        padding: 0;
+
+    }
+
+
+
+    .cover {
+
+        display: none;
+
+    }
+
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+
+
+    }
+
+    body {
+
+        background-image: none;
+
+    }
+
+
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    main {
+        font-size: 75%;
+    }
+
+
+    .dropdownMenuButton {
+        font-size: 75%;
+    }
+
+    header a {
+        font-size: 75%;
+    }
+
+    .show {
+
+        font-size: 1.25em;
+
+
+    }
+}

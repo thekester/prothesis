@@ -1,0 +1,239 @@
+/*@media screen and (max-width: 30em){*/
+@media screen and (max-width: 480px) {
+
+    
+
+    header {
+
+
+        height: 20vh;
+
+
+
+    }
+    
+    #blanc3
+    {
+    
+		font-size:1.4rem;
+    
+    }
+
+    .cover-p {
+
+
+        display: none;
+
+    }
+
+    .cover-div {
+
+
+        display: none;
+
+    }
+
+    header .navbar .nav-item .nav-link {
+
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    main {
+        font-size: 50%;
+    }
+
+
+    .navbar-expand .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        justify-content: space-around !important;
+    }
+
+    header .navbar .navbar-brand {
+
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+    }
+
+
+
+    .navbar-expand > .container {
+
+
+        flex-wrap: wrap;
+
+
+    }
+
+    #imageTropPetite {
+
+        display: none;
+
+    }
+
+    .row {
+
+        margin: 0px;
+
+    }
+
+    #navProthese {
+        width: 100%;
+        align-items: center;
+        font-size: 75%;
+
+    }
+
+
+    header .navbar .nav-item .nav-link {
+
+        font-size: 11px;
+        padding: 0px;
+
+
+    }
+
+
+    #navOutils {
+
+        width: 100%;
+        font-size: 75%;
+
+    }
+
+
+    #navAPropos {
+
+        width: 100%;
+
+
+    }
+
+
+    #navbarSupportedContent {
+        width: 100%;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+
+    .container {
+
+        padding: 0;
+
+    }
+
+    .navbar {
+
+        padding: 0px;
+
+    }
+
+    #margin01 {
+
+        padding: 0;
+
+    }
+
+
+    header {
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #taitToi {
+
+        height: 0vh;
+
+    }
+
+
+
+
+    .content {
+
+        padding: 0;
+
+    }
+
+
+
+    .cover {
+
+        display: none;
+
+    }
+
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+
+
+    }
+
+    body {
+
+        background-image: none;
+        font-size:2rem;
+
+    }
+
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    main {
+        font-size: 50%;
+    }
+
+
+
+
+    .dropdownMenuButton {
+        font-size: 50%;
+        justify-content: center;
+        display: block;
+    }
+
+    header a {
+        font-size: 50%;
+    }
+
+    .show {
+
+        font-size: 1.4rem;
+
+
+    }
+}

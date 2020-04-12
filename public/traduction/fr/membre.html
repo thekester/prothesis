@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="../../js/scriptFontAwesome.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.css" />
+    <script src="../../../bootstrap/js/jQueary.js"></script>
+    <script src="../../../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../../../bootstrap/js/popper.min.js"></script>
+    <script src="../../../bootstrap/js/bootstrap.min.js"></script>
+    <link href="../../../bootstrap/css/flag-icon.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/app.css">
+    <link rel="stylesheet" href="../../css/app.css.map">
+    <link rel="stylesheet" type="text/css" href="../../css/petiteResolution1.css" /> <!--  media="screen and (max-width: 1000px)"   -->
+    <link rel="stylesheet" type="text/css" href="../../css/petiteResolution2.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/petiteResolution3.css" />
+    <title>Prothesis</title>
+    
+</head>
+
+<body>
+	
+    <header>
+		
+        <nav class=" disparition-portable navbar navbar-expand ">
+            <div class="container">
+                <a class="navbar-brand" href="../../../index.html"><img alt="logoHaut" id="logoLargeurSpecial" src="../../images/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                        <li class="nav-item active">
+                            <a id="prothese" class="nav-link" href="#">prothèses<span class="sr-only">(current)</span></a>
+                            <ul class="menu-lvl-container flex flex-nowrap" style="display: none;">
+                                <li class="menu-cell flex-col">
+                                    <span class="menu-link menu-lvl-2-link" style="color: rgb(219, 219, 219);">
+                                        <span>Membres</span>
+                                    </span>
+                                </li>
+                                <li class="menu-cell flex-col">
+                                    <span class="menu-link menu-lvl-2-link" style="color: rgb(219, 219, 219);">
+                                        <span>Organes</span>
+                                    </span>
+                                </li>
+                                <li class="menu-cell flex-col">
+                                    <span class="menu-link menu-lvl-2-link" style="color: rgb(219, 219, 219);">
+                                        <span>Neuroprothèses</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a id="outils" class="nav-link" href="#">outils&nbsp;&&nbsp;matériaux</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="aPropos" class="nav-link" href="#">à&nbsp;propos</a>
+                        </li>
+                        <li class="nav-item">
+							<nav class="navbar" id="lang">
+								<ul>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="membre.html" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-fr"> </span> Français</a>
+										<div class="dropdown-menu" aria-labelledby="dropdown09">
+											<a class="dropdown-item" href="../en/members.html"><span class="flag-icon flag-icon-gb uk"> </span> English</a>
+											<a class="dropdown-item" href="../es/miembros.html"><span class="flag-icon flag-icon-es"> </span> Español</a>
+											<a class="dropdown-item" href="../it/membri.html"><span class="flag-icon flag-icon-it"> </span> Italian</a>
+											<a class="dropdown-item" href="../ru/члены.html"><span class="flag-icon flag-icon-ru"> </span> русский</a>
+										</div>
+									</li>
+								</ul>
+							</nav>                        
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="navProthese">
+            <nav id="blanc1" class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav navbar-center mx-auto ">
+                    <li class="nav-item dropdown px-4">
+                        <a class="nav-link dropdown-toggle" href="membre.html" id="navbardrop" data-toggle="dropdown">
+                            Membres
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="membre.html#membresSup">Membres supérieurs</a>
+                            <a class="dropdown-item" href="membre.html#membresInf">Membres inférieurs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="membre.html#organes">Organes</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="membre.html#neuroprothese">Neuroprothèse</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="navOutils">
+            <nav id="blanc2" class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav navbar-center mx-auto ">
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="outil.html">Outils</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="outil.html#materiaux">Les matériaux</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="navAPropos">
+            <nav id="blanc3" class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav navbar-center mx-auto ">
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="aPropos.html">Historique</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="aPropos.html#Politiques">Politiques</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="aPropos.html#Qui">Qui sommes nous</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="aPropos.html#Contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cover-div">
+            <div>
+                <div>
+                    <h1 class="cover-h1">Les membres</h1>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    
+    <main>
+		
+		 <div id="flecheUp">
+			<a href="#">
+				<img src="../../images/flecheUp.png" alt="Cliquez ici pour remonter" title="fleche">
+			</a>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-card">
+                            <div class="text-content">
+                                <h2 class="title" id="membresSup">Les membres supérieurs</h2>
+                                <h2>Les prothèses myoélectriques</h2>
+                                <h3>Qu'est ce que c'est?</h3>
+                                <p>Les prothèses myoélectriques sont destinés à l'amputation des avants bras et de bras </p>
+                                <h3>Ça coûte combien?</h3>
+                                <p>Le prix de telles prothèses est de 50000 dollars comparer aux prothèses mécaniques qui ont un prix entre 30000 et 40000 dollars</p>
+                                <h3>Comment ça fonctionne?</h3>
+                                <p> Les prothèses myo électriques sont controlés par des signaux electromyographique(EMG) qui ont lieu lors de la contraction musculaire. Les électrodes enregistrement ces siganux sont généralement placés à la surface de la peau.</p>
+                                <h3>Le controle de la prothèse: Le contrôle directe</h3>
+                                <p>Pour le contrôle direct vont enregistrer les signaux provenant d'une ou deux électrodes afin d'enregister les degrés de liberté. Ces signaux sont comparés à des seuils prédeterminés et une action est produite selon le mode de la prothèse. La prothèse doit avoir plusieurs modes pour permettre plusieurs mouvements et pour exécuter les changements de mode els clients doivent exécuter un mouvement prédéterminé.</p>
+                                <h3>Le controle proportionnel</h3>
+                                <p>Il permet de controler la vitesse des mouvements de la prothèse en fonction de l'amplitude du signal EMG ou de la force de contraction. Ce controle s'effectue en faisant la différence entre le seuil prédertiminé de la prothèse et l'amplitude du signal afin de controler la direction et la vitesse du mouvement de la prothèse.</p>
+                                <h3>Existe t'il d'autre façon de controler la prothèse?</h3>
+                                <p>Oui bien sûr, selon une étude réalisé en 2013 le contôle basé sur la reconnaissance de patron est préférable pour plus d'utilitité et de fonctionnalité. Ce contrôle nécessite beaucoup d'entrainements par les clients et présente un grand défi pour ces derniers. </p>
+                                <h3>Pourquoi un tel contrôle?</h3>
+                                <p>Ce contrôle permet d'éviter de faire des séquences de mouvements non reliés pour changer de modes et permet aux clients de faire des mouvements naturels et intuitif pour controler les mouvements de la prothèse. Les patrons EMG unique permettent plus de degrés de libertés actifs </p>
+                                <h3>Comment est elle alimentée en énergie?</h3>
+                                <p>Elle peut être muni de piles rechargeables permettant son fonctionnement. </p>
+                                <h3>Exemple de prothèse</h3>
+                                <img alt="main" class="img" src="../../images/main.png" title="main">
+                                <p> Cette prothèse possède des capteurs de glisse permettant de saisir plus facilement des objets et de savoir quelle pression il faut mettre pour pas écabouiller la bouteille.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="text-card">
+                            <div class="text-content">
+                                <h2 class="title" id="membresInf">Les membres inférieurs</h2>
+                                <h3>Les prothèses de jambes et de pieds</h3>
+                                <h3> Commment fait on pour comparer les personnes amputés et non amputés?</h3>
+                                <img alt="courbe" class="img" src="../../images/courbe.png" title="courbe">
+                                <p> Pour comparer on décompose leurs pas pour le comparer à ceux des personnes valides. La courbe rouge représente celle des maputés et la courbe grise celle des non amputés. On constate qu'il y a peu de différence entre les personnes amputés et les personnes non amputés.</p>
+                                <h3> Le talon</h3>
+                                <img alt="talon" class="img" src="../../images/talon.png" title="talon">
+                                <p> Pour information le talon a un petit coussin graisseux représenter en bleu sur l'image permettant d'emmaganiser le choc le talon et le sol.</p>
+                                <h3> Les étapes de la marche</h3>
+                                <p> Étape 1: Le pied s'étire progressivement et est retenu par les muscles à l'avant de la jambe</p>
+                                <p> Étape 2: Les pieds s'affaisse, les tendons s'étirent</p>
+                                <p>Étape 3: La jambe s’enroule autour de la cheville et passe de l'arrière à l'avant. Le mouvement est retenu par les muscles du mollet</p>
+                                <p>Étape 4 : Le talon décolle et le pied s’enroule autour des orteils et les muscles du mollet soulèvent la jambe tandis que sa soeur jumelle entame la même chorégraphie</p>
+                                <p>Bon donc voici les étapes de la marche.Mais je sais ce que vous pensez: Comment une prothèse aussi sommaire peut elle reproduire un mouvement aussi complexe? Et bien grâce à son profil et à ses matériaux constitués. Un matériau qui a la particularité de se déformer et de reprendre sa forme initiale rapidement c’est ce que l’on appelle un matériau à mémoire de forme.
+                                    Ensuite la souplesse du matériau permet de faire basculer la jambe de l’arrière à l’avant et lorsque tout le poids de la personne ne repose plus sur la prothèse, le matériau peut reprendre sa forme initiale en libérant l’énergie emmagasinée ce qui permet comme vous voyez de faire décoller le talon puis le pied
+                                </p>
+                                <p>
+                                    C’est fou tout ce qu’on demande à une prothèse de genou. Pour prendre la mesure faisons un pas de plus vers les prothèses existante car comme vous le voyez, il faut remplacer toute la partie complexe permettant le contrôle de la jambe. Ça me fait une belle jambe!
+                                </p>
+                                <h2> Exemple de prothèse de jambe</h2>
+                                <h3> La lame de carbone</h3>
+                                <img alt="lame" class="img" src="../../images/lame.png" title="lame">
+                                <p>Pour courir lame de carbone fait un peu comme ressort. Du coup on pourrait dire que c’est un avantage mais cet effet ressort est multiplié par 1 pour les meilleures lames et par 2.5 pour le pied humain.</p>
+                                <h3> Le genou à microprocesseur</h3>
+                                <img alt="genou" class="img" src="../../images/genou.png" title="genou">
+                                <h3>Comment ça fonctionne?</h3>
+                                <p>Le genou à microprocesseur est équipé de capteurs au niveau du talon et du genou. </p>
+                                <h3>A quoi serve les capteurs?</h3>
+                                <p> Et bien sacher que pPlus on marche vite et plus le choc est important au niveau du talon. On mesure donc l’intensité du choc puis les données sont transmis aux microprocesseurs du genou qui adapte le débit au niveau du piston en fonction de l’intensité du choc. Plus il y a de choc, plus il y a de débit et moins la jambe est retenu. Le genou bénéficie également de capteurs d'angle permettant de mesiere l'angle d'ouverture et de fermeture. On ralentit le mouvement de la prothèse à partir d’un certain angle pour éviter qu’elle aille trop loin</p>
+                                <h3> Les problèmes liés au confort</h3>
+                                <p>Ces prothèses sont utilisés pour marcher pas à pas à une vitesse constante.</p>
+                                <h3> Les genous hydrauliques</h3>
+                                <p>Ce genou prothétique est équipé d’un système hydraulique une sorte de piston permettant de contrôler les mouvements d’extension et de flexion et de ralentir quand c’est nécessaire. L’unité hydraulique sert à rendre le mouvement de projection de la jambe plus naturel. </p>
+                                <h3>Exemple de prothèse de genou moderne</h3>
+                                <h3>Powerknee</h3>
+                                <img alt="powerKnee" class="img" src="../../images/powerKnee.png" title="powerKnee">
+                                <p>Il coûte 60000 euros et permet une marche normale mais nécessite d'être rechargé tous les jours. </p>
+                                <h3>Voici maintenant plusieurs types de prothèses pour ceux qui ont des grandes connaissances en médecine</h3>
+                                <figure>
+                                    <img alt="prothese_unicomportementale" src="../../images/prothese_uniconpartimentale_du_ge.jpg">
+                                    <figcaption>Prothèse unicompartimentale (PUC) (si on a qu'un compartiment fémoro tibial abimé)</figcaption>
+                                </figure>
+                                <p>Les prothèses tricompartimentales:
+                                    patella, fémoro tibiale interne et externe abimés. Elles peuvent être à glissement ou à charnière lorsque les ligaments sont abimés (les ligaments croisés sont remplacés par un argo qui va jouer le rôle de ce ligament)</p>
+                                <figure>
+                                    <img alt="glissement" src="../../images/glissement.jpg">
+                                    <figcaption>Prothèse totale à glissement</figcaption>
+                                </figure>
+                                <figure>
+                                    <img alt="charniere" src="../../images/charniere.jpg">
+                                    <figcaption>Prothèse totale à charnière</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="text-card">
+                        <div class="text-content">
+                            <h2 class="title" id="organes">Introduction des organes artificielle</h2>
+                            <p>
+                                Afin de dévelloper le sujet des organes artificiels, il faut déjà savoir en quoi consiste un organe artificiel. Un organe est une partie d'un être vivant ayant une fonction précise pour lui permettre de vivre. Grâce aux nouvelles technologies, à l’ingénierie avancé et à l'essor de la médecine, de nombreux organes peuvent bénéficier d’un équivalent artificiel. Ils sont l'une des grandes solutions face aux problèmes rencontrés dans le domaine du remplacement d'organes défficients, car nous commencons à rencontrés les limites de la greffe. Entre le manque de greiffons et l'incompalité entre un donneur et un receveur, voila pourquoi certains commences à envisager dorénavent les organes artificiel comme solution alternative à la greffe.
+                            </p>
+                            <p>
+                                De belles perspectives sont en cours d’étude ou pourraient voir le jour dans un avenir proche, mais le recul pour évaluer les effets secondaires n’est pas encore suffisant et le coût de ces nouveaux dispositifs n’est pas négligeable, même si l’avènement des l'informatique peut en réduire les couts via notament a l'impression 3D.
+                            </p>
+                            <p>
+                                Depuis 50 ans, la recherche sur les organes artificiels n’a cessé de progresser, offrant une alternative réelle à la transplantation et une meilleure qualité de vie aux patients. Du pacemaker au prothèse auditive, cela fait un moment dorénavent que le dommaine progresse, même si le remplacement total d'un organe et non-plus d'une partie de l'organe est envisagé sèrieusement que depuis quelque temps, rendant la fiction une réalité. Cet intérêt croissant est lié à une meilleure biocompatibilité des matériaux ainsi qu’une miniaturisation accrue des appareils.
+                            </p>
+                            <h2 class="title">Des Organes Artificielles</h2>
+                            <p>
+                                Nous allons maintenant voir pour chaque organes en particulier certains organes artificielles qui ce sont démarqué par leurs succès.
+                            </p>
+                            <h2 id="coeur">Le coeur</h2>
+                            <section class="row">
+                                <div>
+                                    <h3>Coeur Carmat</h3>
+                                    <p>
+                                        Véritable prouesse médicale ayant nécessité plus de 15 ans de recherche, Carmat est probablement la prothèse de cœur artificiel total la plus aboutie au monde, et se veut être une solution de traitement pérenne de l’insuffisance cardiaque terminale face au manque de greffons humains.<br>
+                                        Par actionnement hydraulique via deux groupes moto-pompes miniatures, le liquide d’actionnement déplace cette biomembrane en reproduisant le mouvement de la paroi ventriculaire du cœur humain lors de la contraction. Ce mouvement provoque l’admission et l’éjection du sang. Un dispositif électronique embarqué régule le fonctionnement de la prothèse en fonction des besoins des patients à partir d’informations données par des capteurs et traitées par un microprocesseur, pour obtenir le débit sanguin nécessaire sans augmenter systématiquement la fréquence de fonctionnement.
+                                        La prothèse Carmat est divisé en 3 parties :<br>
+                                        1. La Prothèse implanté a l'intèrieur du patient, a la place de son coeur déficient. Elle contient tout les éléments nécessaire a la régulation du flux sanguin.<br>
+                                        2. Le Patient Mobile KiT apporte la mobilité et l’autonomie indispensables à une vie proche de la normale. Il est composé d’un controller et de batteries lithium-ion assurant une autonomie de plus de 5h.<br>
+                                        3.Hospital Care Console permet à l’équipe médicale de piloter la prothèse durant l’implantation et d’en assurer le suivi.
+                                    </p>
+                                </div>
+                                <img id="carmat" src="../../images/carmat.jpg" alt="Coeur Carmat">
+                            </section>
+                            <section class="row">
+                                <div>
+                                    <h3>Coeur Syncardia</h3>
+                                    <p>
+                                        Connue sous le nom de TAH : Total Artificial Heart ou encore CardioWest, le cœur total SynCardia est la prothèse la plus utilisé, avec des résultats post-greffe satisfaisants à confirmer.<br>
+                                        Existant depuis 25 ans, le TAH connaît aujourd’hui un nouveau développement avec l’avènement des consoles mobiles Companion et Freedom, permettant une autonomie et une qualité de vie excellentes aux patients assistés par le TAH et en attente de transplantation cardiaque, leur accordant beaucoup plus de liberté de mouvement vis à vis des hopitaux.<br>
+                                        De 1969 à 2014, il y a eu 1413 cœurs artificiels implantés dans le monde.
+                                    </p>
+                                </div>
+                                <img id="sincardia" src="../../images/sincardia.jpg" alt="Coeur syncardia">
+                                <p class="attention">
+                                    Mais attention, c'est coeur artificielle reste que des alternative temporaire en l'attente d'une transplantation cardiaque!
+                                </p>
+                            </section>
+                            <section class="row">
+                                <div>
+                                    <h2 id="reins">Les reins</h2>
+                                    <p>
+                                        C'est au début des années 2000 qu'une équipe de chercheurs de l'universités de San Francisco on commencé a développer le projet d'un rein artificiel. Ce projet pourrait devenire une véritable aubaine pour les partients souffrant de insuffisance reinal, en particulier pour ce qui sont en stade terminal et qui n'on nul autre solutions qu'un traitement de dyalise chronique. Et ce n'est pas tous vu que le directeur du projet, le Dr Roy, est sur la bonne voie pour réaliser une prothèse en fonction continue et indépendante. Un véritable rein sur mesure!<br>
+                                        Et ce projet serait surtout extremement bien accueillit pour les 75000 demandeurs de reins rien qu'aux Etats-Unis, qui n'ont nul autre recours que la dyalises continue.
+                                    </p>
+                                </div>
+                                <img id="uscf" src="../../images/ucsf.jpg" alt="Rein Ucsf">
+                            </section>
+                            <section class="row">
+                                <div>
+                                    <h2 id="oeil">L'oeil</h2>
+                                    <p>
+                                        Pour le moment, l'une des prothèse les plus répandue dans le domaine oculaire est l'Argus II de Second Sight.<br>
+                                        La caméra fixée aux lunettes capte les images vidéo puis transmet les données de stimulation électrique à l’implant via une liaison télémétrique depuis l’antenne. Le câble permet de relier les lunettes à l’unité de traitement vidéo. L’unité de traitement vidéo ARGUS II est alimentée par une batterie et est reliée aux lunettes via un câble. Cette unité traite le signal vidéo de la caméra des lunettes et le transforme en données de stimulation électrique. Ces données de stimulation sont ensuite transmises à l’antenne des lunettes. Voici pour la partie technique.<br>
+                                        Pour l'instant les résultat de Second Sight on étais trés satisfaisant vu que des personnes de casi césité peuvent discerné des formes tel qu'une silhouette ou bien une porte. Plus qu'a espérer que dans un avenir proche, Argus II ou une prothèse oculaire apportent un peu de couleurs dans leurs vies.
+                                    </p>
+                                </div>
+                                <img id="argus" src="../../images/argus.jpg" alt="argus">
+                            </section>
+                            <article>
+                                <h2 class="title">Les neuroprothèses</h2>
+                                <section>
+                                    <h2>Une neuroprothèse, c'est quoi ?</h2>
+                                    <p>
+                                        Si l’on en croit les études présentées aujourd’hui à Neuroscience 2017, la réunion annuelle de la Society for Neuroscience et la plus importante source mondiale d’informations émergentes relatives aux sciences du cerveau et de la santé, des prothèses perfectionnées de membres et des yeux ainsi que des interfaces cerveau-machine exploitent des circuits neuronaux existant afin d’améliorer la qualité de vie des personnes présentant ayant une déficience sensorielle.
+                                    </p>
+                                    <p>
+                                        Des millions de personnes à travers le monde sont incapables d’utiliser pleinement leurs corps ou leurs sens en raison d’une maladie, d’une blessure ou d’une amputation. Au mieux, les thérapies modernes et les prothèses ne rétablissent que partiellement la fonction. Au cours de ces 20 dernières années, les progrès de l’ingénierie biomédicale ont conduit au développement d’interfaces entres les dispositifs prothétiques, le système nerveux et les tissus humains, qui améliorent l’efficacité des dispositifs biomédicaux.
+                                    </p>
+                                </section>
+                                <section>
+                                    <h2>Qu'est ce qu'une Interface Neuronale Direct ?</h2>
+                                    <p>
+                                        La recherche sur les IND a commencé dans les années 1970 à l'université de Californie à Los Angeles, financé en partie par la Defense Advanced Research Projects Agency (DARPA). En apparence, il s’agit seulement d’une autre méthode d’interaction entre l’Homme et les machines mais en fait, nous sommes face à quelque chose de réellement révolutionnaire.
+                                    </p>
+                                    <p>
+                                        Au début, ce n'étais que des chimpanzés qui articuaient des robots par la pencé pour des bananes grâce à des capteurs sur leurs cranes. Mais aujourd'hui, on en est pluis loing. Pour faire simple, le système neuronal humain génère, transmet et traite des signaux électrochimiques dans différentes parties du corps. La «partie électrique» de ces signaux peut être «lue» et «interprétée» par odinateur qui comprend les signals donné par le cerveau et agit en fonction.
+                                    </p>
+                                    <p>
+                                        Il existe différentes manières de réaliser cela. Par exemple, vous pouvez collecter les signaux via imagerie par résonance magnétique. Il est aussi possible d’injecter des marqueurs liquides spéciaux afin d’activer le processus mais ils peuvent être néfastes pour l’organisme humain. Enfin, il est également possible d’utiliser de minuscules capteurs. Les interfaces neuronales directes utilisent en général ce type de capteurs.
+                                    </p>
+                                </section>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+ <footer>
+		
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <img alt="logoPetit" src="../../images/logo-w.png" class="img-fluid" width="128">
+                    </div>
+                    <div class="col-md-2">
+                        <h3 class="footer-title">Administrateurs</h3>
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#">Bertille Menguy</a>
+                            </li>
+                            <li>
+                                <a href="#"> Baptiste Tutellier</a>
+                            </li>
+                            <li>
+                                <a href="#">Théophile Avenel</a>
+                            </li>
+                            <li>
+                                <a href="#">Steven Guillet</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h3 class="footer-title">Codage</h3>
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#">accueil, header, footer</a>
+                            </li>
+                            <li>
+                                <a href="#">prothèses</a>
+                            </li>
+                            <li>
+                                <a href="#">outils & matériaux</a>
+                            </li>
+                            <li>
+                                <a href="#">à propos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h3 class="footer-title">Tel (+33)</h3>
+                        <div class="divUl">
+                            
+                            <img alt="tel" src="../../images/telBig.png">
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h3 class="footer-title">Mail</h3>
+                        <div class="divUl">
+                      
+                            
+                            <img alt="mail" id="mail" src="../../images/mailBig.png">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="social">
+                    <a href="#"><i class="fas fa-cloud"></i></a>
+                </div>
+                <p>
+                    Copyrights &copy; 2019 - 2020 <a href="../../index.html">Prothesis</a>. Tous droits réservés
+                </p>
+            </div>
+        </div>
+        
+    </footer>
+    
+    <script src="../../js/scriptSite.js"></script>
+    
+</body>
+
+</html>
